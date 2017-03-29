@@ -53,7 +53,7 @@
         .list-wrapper,
         .list-wrapper:first-child {
             margin: 0px 0px 5px 3px; /* left and bottom margin of lists reduced from 10 to 3*/
-            width: 255px
+            width: 200px
         }
 
         .board-wrapper {
