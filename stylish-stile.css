@@ -21,21 +21,21 @@
             border-radius: 3px;
         }
     
-    /** multiple list rows */
-        #board{
+    /** multiple list rows don't work with drag an drop and autoscrolling*/ 
+    /*    #board{
             display:block !important;
             text-align:left;    
             position:relative !important;
             white-space:initial;
-            padding-bottom: 24px;
+           padding-bottom: 24px;
         }
 
         .board-canvas{
-            height:auto !important
+            height:auto !important 
         }
 
         .body-board-view{
-            overflow-y:visible
+            overflow-y:visible 
         }
 
         .js-list,
@@ -47,7 +47,7 @@
 
         .u-gutter{
             margin-left:0;
-        }
+        }*/
     
     /* make it more compact */
         .list-wrapper,
