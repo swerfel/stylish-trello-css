@@ -1,0 +1,79 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain('trello.com') {
+    
+    /* display label text */
+        body .list-card-labels .card-label{
+            font-size: 10px;
+            font-weight: normal;
+            height: auto;
+            line-height: 12px;
+            padding: 0px 3px;
+            width: auto;
+            text-shadow: none;
+        }
+
+    /* better description highlighting */
+        .js-desc-content {
+            background-color: rgba(0, 0, 0, 0.05);
+            padding: 8px 10px 4px 10px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 3px;
+        }
+    
+    /** multiple list rows */
+        #board{
+            display:block !important;
+            text-align:left;    
+            position:relative !important;
+            white-space:initial;
+            padding-bottom: 24px;
+        }
+
+        .board-canvas{
+            height:auto !important
+        }
+
+        .body-board-view{
+            overflow-y:visible
+        }
+
+        .js-list,
+        .js-add-list {
+            display:inline-block !important;
+            vertical-align:top;
+            margin:0 0 10px 10px;
+        }
+
+        .u-gutter{
+            margin-left:0;
+        }
+    
+    /* make it more compact */
+        .list-wrapper,
+        .list-wrapper:first-child {
+            margin: 0px 0px 5px 3px; /* left and bottom margin of lists reduced from 10 to 3*/
+            width: 255px
+        }
+
+        .board-wrapper {
+            font-size: 12px; /* all fonts on board from 14 to 12 */
+        }
+    
+        .badge {
+           margin-bottom: 0px; /* comment and othe info badges reduce from 4 */
+            padding: 0px; /* from 1 2 1 2 */
+        }
+    
+    .list-card-details {
+        padding: 2px; /* reduce padding for each card in list from 6 6 2 8 */
+    }
+        
+        .list-cards {
+        padding: 0px; /*reduce padding for each list from 0 4 0 4*/
+    }
+    
+    .open-card-composer {
+        padding: 0px 10px; /* new card button from 8 10 8 10*/
+    }
+}
