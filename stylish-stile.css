@@ -1,5 +1,22 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
+@-moz-document regexp('.*trello\\.com/.*sergej-arbeit') {
+    /* make the lists have different colors depending on their order */
+    .js-list:nth-child(1) .list {
+       background: #ffcccc;
+    }
+    .js-list:nth-child(2) .list {
+       background: 	#ffb3b3;
+    }
+    .js-list:nth-child(3) .list {
+       background: 	#f5f5bc;
+    }
+    .js-list:nth-child(4) .list {
+       background: #79d279;
+    } 
+    
+}
+
 @-moz-document domain('trello.com') {
     
     /* display label text */
